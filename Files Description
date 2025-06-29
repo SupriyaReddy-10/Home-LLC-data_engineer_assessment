@@ -1,0 +1,7 @@
+Tablescreation,sql -- DDL to create normalized tables
+ETL.py -- Python script to perform ETL
+requirements.txt -- Python libraries required to run the script
+
+Highlights:
+No ORM used,raw SQL for insertion.
+Relationships maintained by using foregin keys such as property_id as reference
